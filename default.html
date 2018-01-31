@@ -1,23 +1,33 @@
-<!DOCTYPE html>
 <html>
+<body>
+<div class="thumb">
+<img src="https://jagruk-cpjp6tqes1ye1a.netdna-ssl.com/wp-content/uploads/2017/07/facts-about-space.jpg" />
+<span class="text">Welcome to my WebSite</span>
+</div>
 <head>
-<style>
-h1 {
-    color: green;
-    font-family: verdana;
-    font-size: 300%;
+<style type="text/css">
+.thumb {
+position: relative;
+width: 150px;
+height: 100px;
+border: 2px dashed #444;
+margin: 10px;
+float: left
 }
-p  {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
+.text {
+display: none;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+background: #999;
+background: rgba(0,0,0,0.3);
+text-align: center
+}
+.thumb:hover .text {
+display: block
 }
 </style>
 </head>
-<body>
-
-<h1>Hello there, Welcome to my website</h1>
-<p>Site Under Construction. Inconvenience Regretted </p>
-
 </body>
 </html>
